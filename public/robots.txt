@@ -1,0 +1,31 @@
+# Allow Googlebot and Googlebot-Image
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-Image
+Disallow:
+
+# Allow Ahrefsbot
+User-agent: Ahrefsbot
+Disallow:
+
+# Allow Bingbot
+User-agent: Bingbot
+Disallow:
+
+# Allow DuckDuckBot
+User-agent: DuckDuckBot
+Disallow:
+
+# Allow archive.org_bot
+User-agent: archive.org_bot
+Disallow:
+
+# Block all other bots
+User-agent: *
+Disallow:
+
+# Additional folder-specific blocks (for all bots except allowed ones)
+User-agent: *
+Disallow: /logs/
+Disallow: /ssl/
