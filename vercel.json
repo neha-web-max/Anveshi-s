@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "anveshiijain.com"
+        }
+      ],
+      "destination": "https://www.ckoks.com/$1",
+      "permanent": true
+    }
+  ]
+}
