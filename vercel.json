@@ -1,16 +1,16 @@
-
 {
-  "version": 2,
-  "builds": [
+  "redirects": [
     {
-      "src": "vercel.json",
-      "use": "@vercel/static-build"
-    }
-  ],
-  "routes": [
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "anveshiijain.com" }],
+      "destination": "https://www.ckoks.com/$1",
+      "permanent": true
+    },
     {
-      "src": "/(.*)",
-      "dest": "/public/$1"
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.anveshiijain.com" }],
+      "destination": "https://www.ckoks.com/$1",
+      "permanent": true
     }
   ]
 }
