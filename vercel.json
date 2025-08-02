@@ -1,11 +1,26 @@
 {
-  "source": "/(.*)",
-  "has": [
+  "redirects": [
     {
-      "type": "host",
-      "value": "anveshiijain.com"
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "anveshiijain.com"
+        }
+      ],
+      "destination": "https://www.ckoks.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.anveshiijain.com"
+        }
+      ],
+      "destination": "https://www.ckoks.com/$1",
+      "permanent": true
     }
-  ],
-  "destination": "https://anveshiijain.com/$1",
-  "permanent": true
+  ]
 }
